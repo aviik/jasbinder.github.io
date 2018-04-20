@@ -1,0 +1,57 @@
+.lead{
+  padding: 0;
+  margin: 0;
+}
+/*.banner{
+  text-align: center;
+  margin-top: 30px;
+  background: url(../img/centre_image.jpg);
+  background: -webkit-linear-gradient(top, #fff, transparent 60%),
+  url(../img/centre_image.jpg);
+  background: -o-linear-gradient(top, #fff, transparent 60%),
+  url(../img/centre_image.jpg);
+  background: linear-gradient(to bottom, #fff, transparent 60%),
+  url(../img/centre_image.jpg);
+  background-repeat: no-repeat;
+  background-position: center, center;
+  background-size: cover;
+  padding: 0 0 800px 0;
+
+}
+
+.about-banner{
+  text-align: center;
+  margin-top: 30px;
+  background: url(../img/temp_about_image.jpg);
+  background: -webkit-linear-gradient(top, #fff, transparent 60%),
+  url(../img/centre_image.jpg);
+  background: -o-linear-gradient(top, #fff, transparent 60%),
+  url(../img/centre_image.jpg);
+  background: linear-gradient(to bottom, #fff, transparent 60%),
+  url(../img/centre_image.jpg);
+  background-repeat: no-repeat;
+  background-position: center, center;
+  background-size: cover;
+  padding: 0 0 800px 0;*/
+
+
+.jsprofile-image {
+  border-radius: 50%;
+}
+
+
+
+
+.hide-bullets {
+    list-style:none;
+    margin-left: -40px;
+    margin-top:20px;
+}
+
+.thumbnail {
+    padding: 0;
+}
+
+.carousel-inner>.item>img, .carousel-inner>.item>a>img {
+    width: 100%;
+}
