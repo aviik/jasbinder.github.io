@@ -37,6 +37,8 @@
     padding: 0;
 }
 
+
+
 .carousel-inner>.item>img, .carousel-inner>.item>a>img {
     width: 100%;
 }
@@ -47,9 +49,11 @@
   font-size: 2em;
 }
 
-.info{
-  width:60%;
-}
+
+
+
+
+
 a{
   color: #000;
 }
@@ -59,8 +63,18 @@ a:before{
 }
 a:hover{
   color: #000;
-
 }
+
+.thumbnail-tint{
+filter: grayscale(100%);
+}
+
+.thumbnail-tint:hover{
+  filter: grayscale(0);
+}
+
+
+
 
 footer{
   background-color: teal;
