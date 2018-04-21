@@ -9,22 +9,25 @@
 
 
 .pimg1{
-  background: url(../img/centre_image.jpg);
+  background: url(../img/04_Main_landing_image.png);
   min-height: 100%;
-  padding: 0 0 800px 0;
+  padding: 0 0 650px 0;
 
 
 }
 
 .pimg2{
-  background: url(../img/temp_about_image.jpg);
+  background: url(../img/12_BANNER.jpg);
   min-height: 400px;
 }
 
+.pimg3{
+  background: url(../img/13_BANNER.jpg);
+  min-height: 600px;
+}
 
 
-
-.pimg1, .pimg2{
+.pimg1, .pimg2, .pimg3{
   position: relative;
   background-position: center;
   background-size: cover;
@@ -43,8 +46,15 @@
   overflow: hidden;
   position: relative;
   text-align:center;
+
   /*cursor: default;*/
 }
+
+.hovereffect img{
+  opacity: 0.7;
+}
+
+
 .hovereffect .overlay {
   width: 100%;
   height: 20%;
@@ -64,6 +74,9 @@
   display: block;
   position: relative;
 }
+/*.hovereffect:hover .hover {
+  background-color: rgba(255, 255, 255, 0);
+}*/
 .hovereffect h2 {
   text-transform: uppercase;
   color: #fff;
