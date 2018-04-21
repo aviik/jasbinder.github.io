@@ -1,39 +1,17 @@
+.my-label {
+  font: Helvetica, sans-serif;
+  font-size: 2em;
+  font-weight: 550;
+  color: #000;
+}
+.major-label
+
+
+
 .lead{
   padding: 0;
   margin: 0;
 }
-/*.banner{
-  text-align: center;
-  margin-top: 30px;
-  background: url(../img/centre_image.jpg);
-  background: -webkit-linear-gradient(top, #fff, transparent 60%),
-  url(../img/centre_image.jpg);
-  background: -o-linear-gradient(top, #fff, transparent 60%),
-  url(../img/centre_image.jpg);
-  background: linear-gradient(to bottom, #fff, transparent 60%),
-  url(../img/centre_image.jpg);
-  background-repeat: no-repeat;
-  background-position: center, center;
-  background-size: cover;
-  padding: 0 0 800px 0;
-
-}
-
-.about-banner{
-  text-align: center;
-  margin-top: 30px;
-  background: url(../img/temp_about_image.jpg);
-  background: -webkit-linear-gradient(top, #fff, transparent 60%),
-  url(../img/centre_image.jpg);
-  background: -o-linear-gradient(top, #fff, transparent 60%),
-  url(../img/centre_image.jpg);
-  background: linear-gradient(to bottom, #fff, transparent 60%),
-  url(../img/centre_image.jpg);
-  background-repeat: no-repeat;
-  background-position: center, center;
-  background-size: cover;
-  padding: 0 0 800px 0;*/
-
 
 .jsprofile-image {
   border-radius: 50%;
@@ -54,4 +32,19 @@
 
 .carousel-inner>.item>img, .carousel-inner>.item>a>img {
     width: 100%;
+}
+
+.info{
+  width:60%;
+}
+a{
+  color: #000;
+}
+a:before{
+  color: #000;
+  font-style: none;
+}
+a:hover{
+  color: #000;
+  
 }
