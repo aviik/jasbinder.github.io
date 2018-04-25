@@ -7,7 +7,7 @@
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>Jasbinder Singh</title>
     <script src="//netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+    <!-- <script src="//code.jquery.com/jquery-1.11.1.min.js"></script> -->
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -26,132 +26,200 @@
   </head>
 
   <body>
+
+
+    <header class="heads text-center">
+      <div class="container">
+        <div class="profile-area">
+          <figure>
+            <img  src="img/js_profilePic.jpg" alt="jasbinder profile picture" style="width: 120px; height:110px; border-radius: 50%; margin-top: 20px; "><br>
+            <img id="signture" src="img/Art_signature.png" alt="jasbinder signature">
+          </figure>
+        </div>
+
+
+        <div class="row page-header">
+          <div class="col-md-4">
+            <h2 class="my-label major-label"><a href="index.html">home.</a></h2>
+          </div>
+          <div class="col-md-4">
+            <h2 class="my-label major-label"><a href="index.html#aboutheader">about.</a></h2>
+         </div>
+         <div class="col-md-4">
+            <h2 class="my-label major-label"><a href="index.html#contactheader">contact.</a></h2>
+         </div>
+       </div>
+      </div>
+    </header>
+    <section id="topic-information">
+      <div class="container">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </div>
+    </section>
+
+
+
+
+
     <div class="container">
     <div id="main_area">
         <!-- Slider -->
-        <div class="row">
-            <div class="col-sm-6" id="slider-thumbs">
-                <!-- Bottom switcher of slider -->
-                <ul class="hide-bullets">
-                    <li class="col-sm-3">
-                        <a class="thumbnail" id="carousel-selector-0">
-                            <img src="http://placehold.it/150x150&text=zero">
-                        </a>
-                    </li>
-
-                    <li class="col-sm-3">
-                        <a class="thumbnail" id="carousel-selector-1"><img src="http://placehold.it/150x150&text=1"></a>
-                    </li>
-
-                    <li class="col-sm-3">
-                        <a class="thumbnail" id="carousel-selector-2"><img src="http://placehold.it/150x150&text=2"></a>
-                    </li>
-
-                    <li class="col-sm-3">
-                        <a class="thumbnail" id="carousel-selector-3"><img src="http://placehold.it/150x150&text=3"></a>
-                    </li>
-
-                    <li class="col-sm-3">
-                        <a class="thumbnail" id="carousel-selector-4"><img src="http://placehold.it/150x150&text=4"></a>
-                    </li>
-
-                    <li class="col-sm-3">
-                        <a class="thumbnail" id="carousel-selector-5"><img src="http://placehold.it/150x150&text=5"></a>
-                    </li>
-                    <li class="col-sm-3">
-                        <a class="thumbnail" id="carousel-selector-6"><img src="http://placehold.it/150x150&text=6"></a>
-                    </li>
-
-                    <li class="col-sm-3">
-                        <a class="thumbnail" id="carousel-selector-7"><img src="http://placehold.it/150x150&text=7"></a>
-                    </li>
-
-                    <li class="col-sm-3">
-                        <a class="thumbnail" id="carousel-selector-8"><img src="http://placehold.it/150x150&text=8"></a>
-                    </li>
-
-                    <li class="col-sm-3">
-                        <a class="thumbnail" id="carousel-selector-9"><img src="http://placehold.it/150x150&text=9"></a>
-                    </li>
-                    <li class="col-sm-3">
-                        <a class="thumbnail" id="carousel-selector-10"><img src="http://placehold.it/150x150&text=10"></a>
-                    </li>
-
-                    <li class="col-sm-3">
-                        <a class="thumbnail" id="carousel-selector-11"><img src="http://placehold.it/150x150&text=11"></a>
-                    </li>
-
-                    <li class="col-sm-3">
-                        <a class="thumbnail" id="carousel-selector-12"><img src="http://placehold.it/150x150&text=12"></a>
-                    </li>
-
-                    <li class="col-sm-3">
-                        <a class="thumbnail" id="carousel-selector-13"><img src="http://placehold.it/150x150&text=13"></a>
-                    </li>
-                    <li class="col-sm-3">
-                        <a class="thumbnail" id="carousel-selector-14"><img src="http://placehold.it/150x150&text=14"></a>
-                    </li>
-
-                    <li class="col-sm-3">
-                        <a class="thumbnail" id="carousel-selector-15"><img src="http://placehold.it/150x150&text=15"></a>
-                    </li>
-                </ul>
-            </div>
-            <div class="col-sm-6">
+            <div class="col-sm-12">
                 <div class="col-xs-12" id="slider">
                     <!-- Top part of the slider -->
+
+
                     <div class="row">
                         <div class="col-sm-12" id="carousel-bounding-box">
                             <div class="carousel slide" id="myCarousel">
                                 <!-- Carousel items -->
                                 <div class="carousel-inner">
+
                                     <div class="active item" data-slide-number="0">
-                                        <img src="http://placehold.it/470x480&text=zero"></div>
+                                        <img src="img/paintings/00.jpg">
+                                        <div class="image-information text-center">
+                                          <ol>
+                                            <li>title.<span style="background-color:black; color:white">&emsp;Image 01&emsp;</span></li>
+                                            <li>date.<span style="background-color:black; color:white">&emsp;Image 01&emsp;</span></li>
+                                            <li>city.<span style="background-color:black; color:white">&emsp;Image 01&emsp;</span></li>
+                                            <li>size.<span style="background-color:black; color:white">&emsp;Image 01&emsp;</span></li>
+                                          </ol>
+                                        </div>
+                                    </div>
 
                                     <div class="item" data-slide-number="1">
-                                        <img src="http://placehold.it/470x480&text=1"></div>
+                                        <img src="img/paintings/01.jpg">
+                                        <div class="image-information text-center">
+                                          <ol>
+                                            <li>title.<span style="background-color:black; color:white">&emsp;Image 01&emsp;</span></li>
+                                            <li>date.<span style="background-color:black; color:white">&emsp;Image 01&emsp;</span></li>
+                                            <li>city.<span style="background-color:black; color:white">&emsp;Image 01&emsp;</span></li>
+                                            <li>size.<span style="background-color:black; color:white">&emsp;Image 01&emsp;</span></li>
+                                          </ol>
+                                        </div>
+                                    </div>
 
                                     <div class="item" data-slide-number="2">
-                                        <img src="http://placehold.it/470x480&text=2"></div>
+                                        <img src="img/paintings/02.jpg">
+                                        <div class="image-information text-center">
+                                          <ol>
+                                            <li>title.<span style="background-color:black; color:white">&emsp;Image 01&emsp;</span></li>
+                                            <li>date.<span style="background-color:black; color:white">&emsp;Image 01&emsp;</span></li>
+                                            <li>city.<span style="background-color:black; color:white">&emsp;Image 01&emsp;</span></li>
+                                            <li>size.<span style="background-color:black; color:white">&emsp;Image 01&emsp;</span></li>
+                                          </ol>
+                                        </div>
+                                    </div>
 
                                     <div class="item" data-slide-number="3">
-                                        <img src="http://placehold.it/470x480&text=3"></div>
+                                        <img src="img/paintings/03.jpg">
+                                        <div class="image-information text-center">
+                                          <ol>
+                                            <li>title.<span style="background-color:black; color:white">&emsp;Image 01&emsp;</span></li>
+                                            <li>date.<span style="background-color:black; color:white">&emsp;Image 01&emsp;</span></li>
+                                            <li>city.<span style="background-color:black; color:white">&emsp;Image 01&emsp;</span></li>
+                                            <li>size.<span style="background-color:black; color:white">&emsp;Image 01&emsp;</span></li>
+                                          </ol>
+                                        </div>
+                                    </div>
 
                                     <div class="item" data-slide-number="4">
-                                        <img src="http://placehold.it/470x480&text=4"></div>
+                                        <img src="img/paintings/04.jpg">
+                                        <div class="image-information text-center">
+                                          <ol>
+                                            <li>title.<span style="background-color:black; color:white">&emsp;Image 01&emsp;</span></li>
+                                            <li>date.<span style="background-color:black; color:white">&emsp;Image 01&emsp;</span></li>
+                                            <li>city.<span style="background-color:black; color:white">&emsp;Image 01&emsp;</span></li>
+                                            <li>size.<span style="background-color:black; color:white">&emsp;Image 01&emsp;</span></li>
+                                          </ol>
+                                        </div>
+                                    </div>
 
                                     <div class="item" data-slide-number="5">
-                                        <img src="http://placehold.it/470x480&text=5"></div>
+                                        <img src="img/paintings/05.jpg">
+                                        <div class="image-information text-center">
+                                          <ol>
+                                            <li>title.<span style="background-color:black; color:white">&emsp;Image 01&emsp;</span></li>
+                                            <li>date.<span style="background-color:black; color:white">&emsp;Image 01&emsp;</span></li>
+                                            <li>city.<span style="background-color:black; color:white">&emsp;Image 01&emsp;</span></li>
+                                            <li>size.<span style="background-color:black; color:white">&emsp;Image 01&emsp;</span></li>
+                                          </ol>
+                                        </div>
+                                    </div>
 
                                     <div class="item" data-slide-number="6">
-                                        <img src="http://placehold.it/470x480&text=6"></div>
+                                        <img src="img/paintings/06.jpg">
+                                        <div class="image-information text-center">
+                                          <ol>
+                                            <li>title.<span style="background-color:black; color:white">&emsp;Image 01&emsp;</span></li>
+                                            <li>date.<span style="background-color:black; color:white">&emsp;Image 01&emsp;</span></li>
+                                            <li>city.<span style="background-color:black; color:white">&emsp;Image 01&emsp;</span></li>
+                                            <li>size.<span style="background-color:black; color:white">&emsp;Image 01&emsp;</span></li>
+                                          </ol>
+                                        </div>
+                                    </div>
 
                                     <div class="item" data-slide-number="7">
-                                        <img src="http://placehold.it/470x480&text=7"></div>
+                                        <img src="img/paintings/07.jpg">
+                                        <div class="image-information text-center">
+                                          <ol>
+                                            <li>title.<span style="background-color:black; color:white">&emsp;Image 01&emsp;</span></li>
+                                            <li>date.<span style="background-color:black; color:white">&emsp;Image 01&emsp;</span></li>
+                                            <li>city.<span style="background-color:black; color:white">&emsp;Image 01&emsp;</span></li>
+                                            <li>size.<span style="background-color:black; color:white">&emsp;Image 01&emsp;</span></li>
+                                          </ol>
+                                        </div>
+                                    </div>
+
 
                                     <div class="item" data-slide-number="8">
-                                        <img src="http://placehold.it/470x480&text=8"></div>
+                                        <img src="img/paintings/08.jpg">
+                                        <div class="image-information text-center">
+                                          <ol>
+                                            <li>title.<span style="background-color:black; color:white">&emsp;Image 01&emsp;</span></li>
+                                            <li>date.<span style="background-color:black; color:white">&emsp;Image 01&emsp;</span></li>
+                                            <li>city.<span style="background-color:black; color:white">&emsp;Image 01&emsp;</span></li>
+                                            <li>size.<span style="background-color:black; color:white">&emsp;Image 01&emsp;</span></li>
+                                          </ol>
+                                        </div>
+                                    </div>
+                                    <div class="item" data-slide-number="6">
+                                        <img src="img/paintings/06.jpg">
+                                        <div class="image-information text-center">
+                                          <ol>
+                                            <li>title.<span style="background-color:black; color:white">&emsp;Image 01&emsp;</span></li>
+                                            <li>date.<span style="background-color:black; color:white">&emsp;Image 01&emsp;</span></li>
+                                            <li>city.<span style="background-color:black; color:white">&emsp;Image 01&emsp;</span></li>
+                                            <li>size.<span style="background-color:black; color:white">&emsp;Image 01&emsp;</span></li>
+                                          </ol>
+                                        </div>
+                                    </div>
 
-                                    <div class="item" data-slide-number="9">
-                                        <img src="http://placehold.it/470x480&text=9"></div>
+                                    <div class="item" data-slide-number="7">
+                                        <img src="img/paintings/07.jpg">
+                                        <div class="image-information text-center">
+                                          <ol>
+                                            <li>title.<span style="background-color:black; color:white">&emsp;Image 01&emsp;</span></li>
+                                            <li>date.<span style="background-color:black; color:white">&emsp;Image 01&emsp;</span></li>
+                                            <li>city.<span style="background-color:black; color:white">&emsp;Image 01&emsp;</span></li>
+                                            <li>size.<span style="background-color:black; color:white">&emsp;Image 01&emsp;</span></li>
+                                          </ol>
+                                        </div>
+                                    </div>
 
-                                    <div class="item" data-slide-number="10">
-                                        <img src="http://placehold.it/470x480&text=10"></div>
 
-                                    <div class="item" data-slide-number="11">
-                                        <img src="http://placehold.it/470x480&text=11"></div>
+                                    <div class="item" data-slide-number="8">
+                                        <img src="img/paintings/08.jpg">
+                                        <div class="image-information text-center">
+                                          <ol>
+                                            <li>title.<span style="background-color:black; color:white">&emsp;Image 01&emsp;</span></li>
+                                            <li>date.<span style="background-color:black; color:white">&emsp;Image 01&emsp;</span></li>
+                                            <li>city.<span style="background-color:black; color:white">&emsp;Image 01&emsp;</span></li>
+                                            <li>size.<span style="background-color:black; color:white">&emsp;Image 01&emsp;</span></li>
+                                          </ol>
+                                        </div>
+                                    </div>
 
-                                    <div class="item" data-slide-number="12">
-                                        <img src="http://placehold.it/470x480&text=12"></div>
-
-                                    <div class="item" data-slide-number="13">
-                                        <img src="http://placehold.it/470x480&text=13"></div>
-
-                                    <div class="item" data-slide-number="14">
-                                        <img src="http://placehold.it/470x480&text=14"></div>
-
-                                    <div class="item" data-slide-number="15">
-                                        <img src="http://placehold.it/470x480&text=15"></div>
                                 </div>
                                 <!-- Carousel nav -->
                                 <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
@@ -165,23 +233,71 @@
                     </div>
                 </div>
             </div>
+
+
+            <div class="col-sm-12" id="slider-thumbs">
+                <!-- Bottom switcher of slider -->
+                <ul class="hide-bullets">
+                    <li class="col-sm-3">
+                        <a class="thumbnail thumbnail-tint" id="carousel-selector-0"><img src="img/paintings/00.jpg"></a>
+                    </li>
+
+                    <li class="col-sm-3">
+                        <a class="thumbnail thumbnail-tint" id="carousel-selector-1"><img src="img/paintings/01.jpg"></a>
+                    </li>
+
+                    <li class="col-sm-3">
+                        <a class="thumbnail thumbnail-tint" id="carousel-selector-2"><img src="img/paintings/02.jpg"></a>
+                    </li>
+
+                    <li class="col-sm-3">
+                        <a class="thumbnail thumbnail-tint" id="carousel-selector-3"><img src="img/paintings/03.jpg"></a>
+                    </li>
+
+                    <li class="col-sm-3">
+                        <a class="thumbnail thumbnail-tint" id="carousel-selector-4"><img src="img/paintings/04.jpg"></a>
+                    </li>
+
+                    <li class="col-sm-3">
+                        <a class="thumbnail thumbnail-tint" id="carousel-selector-5"><img src="img/paintings/05.jpg"></a>
+                    </li>
+<!--
+                    <li class="col-sm-3">
+                        <a class="thumbnail thumbnail-tint" id="carousel-selector-6"><img src="img/paintings/07.jpg"></a>
+                    </li>
+
+                    <li class="col-sm-3">
+                        <a class="thumbnail thumbnail-tint" id="carousel-selector-7"><img src="img/paintings/08.jpg"></a>
+                    </li> -->
+
+
+                </ul>
+            </div>
             <!--/Slider-->
-        </div>
+
 
     </div>
 </div>
 
 
+<section class="directed-to-first-page">
+  <div class="container">
+    <div class="text-center">
+      <a href="index.html#worksheader">Back to works <span class="glyphicon glyphicon-chevron-left"></span> <span class="glyphicon glyphicon-chevron-left"></span> </a>
+        <br><br><br>
+    </div>
+  </div>
+</section>
+
 
 <footer>
   <div class="container text-center">
-    <p>Made with <span class="glyphicon glyphicon-heart" aria-hidden="true" style="color:red"></span> and <span class="glyphicon glyphicon-music" aria-hidden="true" style="color:black"></span> by avik</a></p>
+    <p>Made with <span class="glyphicon glyphicon-heart" aria-hidden="true" style="color:red"></span> and <span class="glyphicon glyphicon-music" aria-hidden="true" style="color:black"></span> by aviik</a></p>
+
+
 
   </div>
 </footer>
-
-
-
 
 
 
