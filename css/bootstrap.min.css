@@ -254,6 +254,9 @@ li{
 .icon-area-mobile{
   padding-bottom: 20px;
 }
+.icon-area-mobile{
+  visibility: hidden;
+}
 
 /*@media screen and (max-width: 400px){
     .carousel-indicators li img{
