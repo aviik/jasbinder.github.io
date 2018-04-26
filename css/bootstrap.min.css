@@ -329,6 +329,15 @@ li{
       height: 50px;
       width: 42px;
   }
+
+/*#carauselcontroller01, #carauselcontroller02{
+      visibility: hidden;
+    }*/
+.carousel-inner{
+  
+}
+
+
   .pimg1 {
     background-attachment: scroll;
     background-position: center;
