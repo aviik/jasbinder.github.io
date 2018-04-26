@@ -307,6 +307,12 @@ li{
   .icon-area-mobile{
     visibility: visible;
   }
+  .col-sm-3 a {
+    border: 0;
+  }
+  .col-sm-3 a:hover{
+    border: 0;
+  }
 }
 
 /*// Small devices (landscape phones, 576px and up)*/
@@ -334,7 +340,7 @@ li{
       visibility: hidden;
     }*/
 .carousel-inner{
-  
+
 }
 
 
