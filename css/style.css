@@ -2,6 +2,7 @@
   font: Helvetica, sans-serif;
   font-weight: 550;
   color: #000;
+
 }
 
 .minor-label{
@@ -99,9 +100,13 @@ footer{
 }
 
 @media only screen and (max-width: 575.98px) {
+  .my-label {
+
+  }
   .major-label{
     font-size: 2em;
     text-transform: uppercase;
+    background-color: teal; 
   }
   .minor-label{
     font-size: 2em;
