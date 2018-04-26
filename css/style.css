@@ -119,7 +119,10 @@ footer{
 
   #aboutjas{
     font-size: 2vh;
+  }
 
+  .thumbnail-tint{
+  filter: grayscale(0);
   }
 
 
