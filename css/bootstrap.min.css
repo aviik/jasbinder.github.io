@@ -335,6 +335,7 @@ li{
     background-size: contain;
     background-repeat: no-repeat;
     padding: 0 0 170px 0;
+    visibility: hidden;
   }
   .pimg2, .pimg3{
     visibility: hidden;
