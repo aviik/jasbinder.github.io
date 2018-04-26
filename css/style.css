@@ -64,6 +64,7 @@ a:before{
 }
 a:hover{
   color: #000;
+  text-decoration: none;
 }
 
 .thumbnail-tint{
@@ -106,7 +107,7 @@ footer{
   .major-label{
     font-size: 2em;
     text-transform: uppercase;
-    background-color: teal; 
+    background-color: teal;
   }
   .minor-label{
     font-size: 2em;
