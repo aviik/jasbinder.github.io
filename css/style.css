@@ -45,12 +45,18 @@
 }
 .aboutarea{
   padding-top: 125px;
+  padding:0;
+  margin: 0;
 }
 .aboutarea p{
   font-size: 2em;
+  padding:30px;
+  margin: 0;
 }
 
-
+/*#aboutheader h3{
+  text-decoration: underline;
+}*/
 
 
 
