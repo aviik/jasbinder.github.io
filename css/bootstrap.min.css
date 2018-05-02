@@ -10,6 +10,7 @@
 .pimg1
 {
   background: url(../img/04_Main_landing_image.png);
+  /*min-width: 100%;*/
   /*min-height: 100%;*/
   padding: 0 0 650px 0;
 }
@@ -367,6 +368,39 @@ li{
 
 /*// Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) and (max-width: 991.98px) {
+  [class*="col-"] {
+      width: 70%;
+      margin: auto;
+  }
+  .pimg1, .pimg2, .pimg3 {
+    background-attachment: fixed;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    /*visibility: hidden;*/
+  }
+
+  .address-area{
+    text-align: center;
+  }
+  .icon-area-desktop{
+    visibility: hidden;
+  }
+  .icon-area-tablet{
+    visibility: hidden;
+  }
+  .icon-area-mobile{
+    visibility: visible;
+  }
+  .col-sm-3 a {
+    border: 0;
+  }
+  .col-sm-3 a:hover{
+    border: 0;
+  }
+  .form-control{
+    width: 500px;
+  }
 
 }
 
